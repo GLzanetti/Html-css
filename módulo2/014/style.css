@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* 
+    Medidas absolutas
+    cm, mm, in(polegada), px, pt, pc
+
+    Medidas relativas
+    em(relativa ao tamanho atual da fonte), ex(relatima ao tamnho da altura X da fonte), rem(tipo em porem em relacao a fonte), vw(tamanho de largura da tela), vh(tamanho de altura da tela), %
+
+    recomendaçoes usar somente px e em
+    16px geralmente = 1em
+
+    tambem tem um shorthand que é 
+    font
+
+    ordem= font-style -> font-weight -> font-size -> font-family
+    */
+    font-size: 16px;
+    font-weight: normal;
+    /*lighter normal bold bolder
+    ou 100-900*/
+    font-style: normal;
+
+
+    background-image: linear-gradient(45deg, #54D99F, #26C4A5, #ACE08C, #E8E284, #F2B652);
+}
+
+main{
+    width: 550px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font: normal bolder 1.5em 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: justify;
+}

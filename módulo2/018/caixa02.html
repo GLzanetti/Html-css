@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font: normal bold 1em Arial, 'sans-serif';
+            margin: 0;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.203);
+        }
+
+        nav>a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            margin-right: 50px;
+        }
+
+        nav>a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        section {
+            background-color: lightgray;
+        }
+
+        article {
+            padding: 3px;
+        }
+
+        article>h2 {
+            font: normal bold 1.5em Arial;
+        }
+
+        section>aside {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-weight: lighter;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: lighter;
+            padding: 4px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Testando</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus neque cum odit soluta iste, nam asperiores adipisci? Modi quam quibusdam accusantium tenetur asperiores aperiam, veniam sequi repellat maxime numquam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis mollitia quod neque. Nemo expedita labore quo voluptate possimus ea iure harum, necessitatibus sit unde minus itaque eum, vel provident consequuntur.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Notícias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet doloremque in eius, ipsam assumenda numquam adipisci voluptates exercitationem cum unde id! Pariatur esse molestiae asperiores iure et ad rerum.</p>
+            <aside>
+                <p>Artigo escrito por José Lima Fernandes</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Lima Zanetti</p>
+    </footer>
+</body>
+</html>

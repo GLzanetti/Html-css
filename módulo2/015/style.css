@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+h1 {
+
+    font: italic bold 2em "Lumanosimo", cursive;
+    text-align: center;
+}
+
+p {
+    font: normal normal 1.2em 'Arial';
+    text-align: justify;
+}
