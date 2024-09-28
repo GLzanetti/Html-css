@@ -7,11 +7,16 @@
     <style>
         body{
             height: 98vh;
-            background-color:black;
+            /*background-color:black;
             background-image: url(__MACOSX/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            background: black url(__MACOSX/wallpaper002.jpg) center top no-repeat fixed;
+            background-size: cover;
+            /*background: color > image > position > repeat > [size] > attachment
+            sendo que o size ainda não funciona na shorthand, ou seja, se colocar a shorthand com o size ela não irá funcionar.*/
         }
         main{
             background-color: white;
